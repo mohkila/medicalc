@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #ffffff;
+  background: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto 
+    w-full sm:w-[540px] md:w-[720px] lg:w-[960px] xl:w-[1140px] 2xl:w-[1320px];
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.bttn {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px 20px;
+}
+.bsttn {
+  border-top-left-radius: 220px;
+  border-bottom-right-radius: 220px;
+  padding: 5px 40px;
+}
+
+.bgimg{
+  background-color: #e74f54;
+  border-top-left-radius: 120px;
+  border-bottom-right-radius: 120px;
+  padding: 5px 20px;
+}
+.ssss{
+  background-color: #E74F54;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px 20px;
+}
+.sssss{
+  background-color: #E74F54;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px 20px;
+  width: 230px;
+  height: 90px;
+}
+.zssss{
+  
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 5px 20px;
+}
